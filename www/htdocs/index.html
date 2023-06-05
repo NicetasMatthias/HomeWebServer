@@ -18,20 +18,35 @@
 		</header>
 		<div>
 			<table border="1">
-				<tr>
-					<td>
-						<a href="http://192.168.0.228:8182/"><img src="images/torrent.png" width="64" height="64" alt="Торрент"></a>
+				<tr onclick="window.location.href='http://192.168.0.228:8182/'; return false">
+					<td style="text-align:center;">
+						<a href="http://192.168.0.228:8182/">
+							<img src="images/torrent.png" width="64" height="64" alt="Торрент">
+							
+						</a>
 					</td>
 					<td>
 						Веб интерфейс торрент клиента
 					</td>
 				</tr>
-				<tr>
-					<td>
-						<a href="http://192.168.0.228:32400/web/"><img src="images/plex.png" width="64" height="64" alt="Plex"></a>
+				<tr onclick="window.location.href='http://192.168.0.228:32400/web/'; return false">
+					<td style="text-align:center;">
+						<a href="http://192.168.0.228:32400/web/">
+							<img src="images/plex.png" width="64" height="64" alt="Plex">
+						</a>
 					</td>
 					<td>
 						Веб интерфейс медиа клиента "PLEX"
+					</td>
+				</tr>
+				<tr onclick="window.location.href='http://192.168.0.1/'; return false">
+					<td style="text-align:center;">
+						<a href="http://192.168.0.1/">
+							<img src="images/router.png" width="64" height="64" alt="Tp Link">
+						</a>
+					</td>
+					<td>
+						Веб интерфейс управления роутером
 					</td>
 				</tr>
 			</table>
